@@ -39,7 +39,7 @@ body {
 
 /* 加粗 */
 .markdown-body strong {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 /* h1样式 */
@@ -413,30 +413,33 @@ body {
 }
 
 .markdown-body table {
-  display: block;
+  /* display: block; */
   width: 100%;
   overflow: auto;
   word-break: normal;
   word-break: keep-all;
+  margin: 36px 0 48px 0;
 }
 
 .markdown-body table th {
   font-weight: bold;
+  color: #9daab6;
+  text-align: left;
 }
 
 .markdown-body table th,
 .markdown-body table td {
-  padding: 6px 13px;
-  border: 1px solid #ddd;
+  padding: 8px 12px;
+  /* border: 1px solid #f5f7f9; */
 }
 
 .markdown-body table tr {
   background-color: #fff;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #f5f7f9;
 }
 
 .markdown-body table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #f5f7f9;
 }
 
 .markdown-body img {
@@ -785,7 +788,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 /* Code blocks */
 pre[class*="language-"] {
     padding: 1em;
-    margin: .5em 0;
+    margin: -8px 0 32px 0;
     overflow: auto;
 }
 
