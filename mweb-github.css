@@ -312,11 +312,11 @@ body {
 }
 
 .markdown-body h1 {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
     font-size: 2.25em;
     line-height: 1.3;
-    border-bottom: 1px solid #E6ECF1;
-    margin-bottom: 40px;
+    /* border-bottom: 1px solid #E6ECF1; */
+    /* margin-bottom: 40px; */
 }
 
 .markdown-body h2 {
