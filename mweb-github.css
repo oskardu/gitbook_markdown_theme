@@ -27,7 +27,7 @@ body {
    text-rendering: optimizeLegibility;
 }
 
-/* 链接样式 */
+/* 链接的样式 */
 .markdown-body a {
   background: transparent;;word-wrap: break-word; word-break: break-all;
 }
